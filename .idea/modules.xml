@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JinRitoutTao.iml" filepath="$PROJECT_DIR$/JinRitoutTao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qwe/qwe.iml" filepath="$PROJECT_DIR$/qwe/qwe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/今日头条/taotiao.iml" filepath="$PROJECT_DIR$/今日头条/taotiao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/今日头条/今日头条.iml" filepath="$PROJECT_DIR$/今日头条/今日头条.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="今日头条"
+            android:layout_marginLeft="10dp"
+            android:layout_height="30dp" />
+        <EditText
+            android:id="@+id/shouye_edit"
+            android:layout_width="0dp"
+
+            android:clickable="true"
+            android:background="#ffffff"
+            android:layout_weight="2"
+            android:layout_marginRight="10dp"
+            android:hint="搜索"
+            android:layout_marginTop="15dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/shouye_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:tabMode="scrollable"
+        app:tabTextColor="#000000"
+        app:tabSelectedTextColor="#ff0000"
+        app:tabIndicatorColor="#00ff00"
+        >
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/shouye_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>
